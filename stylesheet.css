@@ -1,0 +1,282 @@
+body
+{
+	color:white;
+	font-family: Georgia, Helvetica, Geneva;
+	font-size: 14px;
+	font-weight: normal;
+	//background: url("images/stars-high-720.webm");
+	background-image:url("images/awesomegalaxy.jpg");
+	background-size:cover;
+	margin:0px;
+	overflow:auto;
+
+}
+
+video#bgVideo {
+  //top:0;
+  //left:0;
+  //z-index: 1;
+  z-index:0;
+  position:relative;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background:url("images/Sparkling Galaxy.png") no-repeat;
+  background-size: cover;
+  margin:0px;
+  padding:0px;
+ 
+}
+
+.overlay {
+    position:absolute;
+    top:300px;
+    left:400px;
+    z-index:1;
+}
+
+.header
+{
+	margin: 0px;
+	height: 120px;
+	//border: 1px dashed red;
+}
+
+h1
+{   
+    margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 600px;
+	padding: 0px;
+	font-family: "Arial Black", Georgia, Helvetica;
+	font-weight: normal;
+	font-size: 250%;	
+	//text-align: center;
+	color:#e5e4d7;
+	/border: 1px dashed red;
+	width:350px;
+	text-shadow: 2px 2px 5px red;
+}
+
+
+#logo
+{   
+   	max-width: 50%;
+	max-height: 50%;
+	margin-left: 240px;
+	margin-right: 20px;
+	float: left;
+	-webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+#logo:hover
+{
+	box-shadow: 2px 2px 5px #ff3300;
+	opacity: 0.5;
+	
+}
+
+
+nav:hover
+{
+    background-color: #660066;
+}
+
+nav a
+{
+	color:#ffffff;
+	text-decoration:none;
+	font-size:20px;
+}
+
+nav .current a
+{
+	color:#3333cc;
+	font-weight:bold;
+}
+
+nav a:hover
+{
+	color:#000000;
+	background-color:#ffffff;
+	font-weight:bold;
+	border-bottom-color:#0033cc;
+}
+
+
+nav ul
+{
+	margin-top:14px;
+	margin-bottom:10px;
+	padding:8px 10px 8px 380px;
+	//border:2px thick #003300;
+	height:20px;
+	text-align:center;
+	position:fixed;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	//border-bottom-color:#cc3300;
+	background-color: rgba(255, 0, 0, 0.4);
+}
+
+nav li
+{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+	text-shadow: 2px 2px 5px #ff6600;
+}
+
+#container
+{
+	background-color:white;
+	font-family: Georgia, Helvetica, Geneva;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 10px 259px;
+	height: 1000px;
+	//border:2px double red;
+	border-radius:3px;
+	color:black;
+}
+
+#video
+{   
+    width:650px;
+	height:400px;
+	margin: 5px auto;
+	padding:0px;
+	display:block;
+	//border:2px double red;
+}
+
+
+.footer
+{
+	font-size:18px;
+	font-family:Geneva,Arial,sans-serif;
+	color:#fff;
+	margin:0px;
+	padding: 0px;
+	width: 100%;
+	line-height:24px;
+	word-spacing:1px;
+	text-transform:uppercase;
+	//border: 1px solid red;
+	//background-image:url("images/animated-space-gif-3.gif");
+	//background-size:cover;
+	
+}
+
+.net-links
+{
+	//border: 1px solid red;
+	//float:left;
+	//margin-right:30px;
+	//margin-left:80px;
+	margin-bottom:0px;
+}
+
+/*.net-links ul
+{   
+    //padding-right:10px;
+	clear:left;
+	
+}*/
+
+.footer-title
+{
+	font-size:24px;
+	font-family:Geneva,Helvetica,sans-serif;
+    color:#fff;
+	margin-left:42px;
+	margin-bottom:10px;
+	margin-top:15px;
+	line-height:24px;
+	word-spacing:1px;
+	text-transform:uppercase;
+	//border: 1px solid red;
+	
+}
+
+.net-link
+{
+	font-size:14px;
+	font-family:Helvetica,Arial,sans-serif;
+	font-weight:normal;
+	line-height:26px;
+	padding:5px 0px;
+	border-top:1px solid #999;
+	list-style-type:none;
+	
+}
+
+.net-link a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.net-link a:hover,.net-link a:active
+{
+	color:#999;
+}
+
+.button_1
+{
+	height:38px;
+	background:#e8491d;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#ffffff;
+}
+
+.social
+{
+	list-style-type:none;
+	text-align:center;
+	padding-left:15px;
+	padding-right:15px;
+	//height:50px;
+	//border: 1px solid red;
+	margin:0px;
+}
+
+.social li
+{
+	display:inline;
+}
+
+.social i
+{
+	font-size:40px;
+	margin:0px;
+	padding:5% 5% 5% 5%;
+	color:#006699;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.social i:hover
+{
+	color:#f5f5f5;
+}
+
+#top
+{
+ margin:0px; 
+ padding:0px;
+ margin-left:0px; 
+ font-size:12px;
+ //border: 1px solid red;
+}
+
+#top a
+{
+	text-decoration:none;
+}
